@@ -1,4 +1,4 @@
-## SCP/DOS: A 64-bit operating system, developed for the computers of today!
+## SCP/DOS: A 64-bit operating system, for the personal computers of tomorrow!
 Welcome to repository of SCP/DOS, an operating system from yesteryear, brought into the world of today. 
 
 The purpose of this operating system was simple: To provide users with a user experience and programming environment identical to that which MS-DOS 3.30 provided users back in the mid to late 1980s. 
