@@ -38,15 +38,33 @@ If you have any questions or would like to get involved please get in contact wi
 
 Some projects for which I would be enternally grateful if one could contribute include:
 - A UEFI bootloader for SCP/DOS, that works by hooking directly into the SYSINIT module.
-- An installer for Windows/*nix based systems.
+- UEFI support in the disk manipulation utilities.
+- Rewriting the default disk driver to be compatible with 2Fh/08xxh and hook into the disk io interrupts properly.
 - Multitasker (DOSMGR).
 - DLL manager (DLLMAN).
+- An installer for Windows/*nix based systems.
 - Porting compilers/assemblers.
 - Writing an MS-DOS compatible ANSI.SYS driver.
+- Writing an exFAT IFS.
 
 For all aforementioned tasks, I would be more than happy to liase and co-develop. Most of these tasks are already in the works in any case.
 
-So thats it! 
+# What about applications?
+
+SCP/DOS currently has a few applications which highlight the usability of the system. These include:
+- COMMAND.COM - An amazing command interpreter.
+- EDLIN.COM - A line editor.
+- FDISK.COM - A _proper_ disk formatting utility (MBR only for now).
+- FORMAT.COM - A disk formatting utility.
+- SYS.COM - An operating system installation ultility.
+- MORE.COM - An IO filter for pagination.
+- LABEL.COM - A disk label editor.
+- FC.EXE - A demonstration file comparison program written in C.
+- RDEBUG.COM - A program which depends on SCP/BIOS to launch the system debugger.
+
+Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user.
+
+# So thats it! 
 
 Welcome to the world of friendly computing once more!
 
