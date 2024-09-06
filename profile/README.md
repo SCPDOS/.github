@@ -3,7 +3,7 @@ Welcome to SCP/DOS, an operating system from yesteryear, brought into the world 
 
 The purpose of this operating system was simple: To provide users with a user experience and programming environment identical to that which MS-DOS 3.30 provided users back in the mid to late 1980s. 
 This operating system was developed completely in x86-64 assembly, with an API comparible to that which programmers would have had access to back in the wonderful days of DOS. Thats right, its Int 21h all the way down! 
-Furthermore, from a users perspective one would be hard pushed to believe that this is anything but an OS from the 1980's, right up to the messages COMMAND.COM will throw up at you. Oh yes, be prepared to say hello to your old friend "ABORT, RETRY, IGNORE, FAIL?"!!
+Furthermore, from a users perspective one would be hard pushed to believe that this is anything but an OS from the 1980's, right up to the messages COMMAND.COM will throw up at you. Oh yes, be prepared to say hello to your old friend "ABORT, RETRY, IGNORE, FAIL?"
 
 Due to the move to 64-bits, some concessions needed to be made and unfortunately some features of DOS which had their origins in CP/M are now considered obsoleted. A full list will be provided in the programmers and users guides which will detail how to use SCP/DOS. However, those features which did remain, have been given a fresh lick of paint in the form of being brought up to speed with the modern world:
 - The operating system is fully 64-bit.
