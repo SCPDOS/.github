@@ -49,5 +49,7 @@ For all aforementioned tasks, I would be more than happy to liase and co-develop
 So thats it! 
 
 Welcome to the world of friendly computing once more!
+
 All the best,
+
 Yll@SCP/DOS
