@@ -17,10 +17,10 @@ Due to the move to 64-bits, some concessions needed to be made and unfortunately
 - Supports full IO redirection.
 - And many other features, including new Int 21h endpoints!
 
-In effect, if one has a reference sheet of the API endpoints of DOS 3.3, then one has a reference sheet of the majority of the SCP/DOS endpoints. Therefore, it is recommended that when writing a program for SCP/DOS, one becomes familiar with the 
+In effect, if one has a reference sheet of the API endpoints of DOS 3.3, then one has a reference sheet of the majority of the SCP/DOS endpoints. It is therefore recommended that when writing a program for SCP/DOS, one becomes familiar with the 
 Ralf Brown Interrupt List (RBIL). 
 
-Therefore, if you like MS-DOS and want to see it live well into the 21st century, even past the UEFI takeover, I emplore you to give SCP/DOS a try! 
+So, if you like MS-DOS and want to see it live well into the 21st century, even past the UEFI takeover, I emplore you to give SCP/DOS a try!
 It is frequently tested on compatible hardware to ensure that any changes to the operating system and file system drivers don't ruin hardware compatibilty. 
 
 Hardware requirements for SCP/DOS include:
