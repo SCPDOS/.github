@@ -71,4 +71,4 @@ Welcome to the world of friendly computing once more!
 
 All the best,
 
-Yll@SCP/DOS
+ybuzoku@SCP/DOS
