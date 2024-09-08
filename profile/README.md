@@ -34,7 +34,7 @@ Hardware requirements for SCP/DOS include:
 
 For full details, please see the following repository: https://github.com/ybuzoku/SCP-BIOS
 
-If you have any questions or would like to get involved please get in contact with me here or at ybuzoku&lt;AT&rt;hotmail.co.uk.
+If you have any questions or would like to get involved please get in contact with me here or at ybuzoku&lt;AT&gt;hotmail.co.uk.
 
 Some projects for which I would be enternally grateful if one could contribute include:
 - A UEFI bootloader for SCP/DOS, that works by hooking directly into the SYSINIT module.
