@@ -9,7 +9,7 @@ Due to the move to 64-bits, some concessions needed to be made and unfortunately
 - The operating system is fully 64-bit.
 - Has provisions for preemptive multitasking.
 - Has full support for PE executables and .COM style executables.
-- Supports a UNIX-like handle based file IO API, like MS-DOS 3.30.
+- Supports a UNIX-like handle based file IO API, based on that of MS-DOS 3.30.
 - Has native support for FAT12/16/32 file systems (currently without long file name support).
 - Extends the DOS device driver model to cope with drivers up to 2Gb in size and supports installable device drivers.
 - Has support for the network redirector (REDIR) interface and thus Installable File Systems (IFS).
