@@ -5,19 +5,20 @@ The purpose of this operating system was simple: To provide users with a user ex
 This operating system was developed completely in x86-64 assembly, with an API comparible to that which programmers would have had access to back in the wonderful days of DOS. Thats right, its Int 21h all the way down! 
 Furthermore, from a users perspective one would be hard pushed to believe that this is anything but an OS from the 1980's, right up to the messages COMMAND.COM will throw up at you. Oh yes, be prepared to say hello to your old friend "ABORT, RETRY, IGNORE, FAIL?"
 
-Due to the move to 64-bits, some concessions needed to be made and unfortunately some features of DOS which had their origins in CP/M are now considered obsoleted. A full list will be provided in the programmers and users guides which will detail how to use SCP/DOS. However, those features which did remain, have been given a fresh lick of paint in the form of being brought up to speed with the modern world:
+Due to the move to 64-bits, some concessions needed to be made and unfortunately some features of DOS which had their origins in CP/M are now considered obsoleted. A more detailed list can be found in the documentation folder of the DOS repository where one can find more detail on how to use and program for SCP/DOS. However, those features which did remain, have been given a fresh lick of paint in the form of being brought up to speed with the modern world. Some of these features include:
 - The operating system is fully 64-bit.
-- Can handle files up to 4Gb in size (and even larger on redirector drives).
-- Has provisions for preemptive multitasking (though the multitasker module is not yet ready).
+- Has provisions for preemptive multitasking.
 - Has full support for PE executables and .COM style executables.
-- Has native support for FAT12/16/32 (currently without long file names).
-- Extends the DOS device driver model.
-- Has support for the network redirector (REDIR) and thus Installable File Systems (IFS).
+- Supports a UNIX-like handle based file IO API, like MS-DOS 3.30.
+- Has native support for FAT12/16/32 file systems (currently without long file name support).
+- Extends the DOS device driver model to cope with drivers up to 2Gb in size and supports installable device drivers.
+- Has support for the network redirector (REDIR) interface and thus Installable File Systems (IFS).
+- Can handle files up to 4Gb in size (and even larger on drives presented through an Installable File System).
 - Has support for almost all undocumented DOS endpoints including the complete 2F/12xxh line of internal function calls.
 - Supports full IO redirection.
-- And many other features, including new Int 21h endpoints!
+- Many other features, including new DOS Int 21h endpoints!
 
-In effect, if one has a reference sheet of the API endpoints of DOS 3.3, then one has a reference sheet of the majority of the SCP/DOS endpoints. It is therefore recommended that when writing a program for SCP/DOS, one becomes familiar with the 
+In effect, if one has a reference sheet of the API endpoints of DOS 3.30, then one has a reference sheet of the majority of the SCP/DOS endpoints. It is therefore recommended that when writing a program for SCP/DOS, one becomes familiar with the 
 Ralf Brown Interrupt List (RBIL). 
 
 So, if you like MS-DOS and want to see it live well into the 21st century, even past the UEFI takeover, I emplore you to give SCP/DOS a try!
@@ -37,10 +38,9 @@ For full details, please see the following repository: https://github.com/ybuzok
 If you have any questions or would like to get involved please get in contact with me here or at ybuzoku&lt;AT&gt;hotmail.co.uk.
 
 Some projects for which I would be enternally grateful if one could contribute include:
-- A UEFI bootloader for SCP/DOS, that works by hooking directly into the SYSINIT module.
-- UEFI support in the disk manipulation utilities.
+- A UEFI bootloader for SCP/DOS.
+- UEFI GPT support in the disk manipulation utilities.
 - Rewriting the default disk driver to be compatible with 2Fh/08xxh and hook into the disk io interrupts properly.
-- Multitasker (DOSMGR).
 - DLL manager (DLLMAN).
 - An installer for Windows/*nix based systems.
 - Porting compilers/assemblers.
@@ -63,7 +63,8 @@ SCP/DOS currently has a few applications which highlight the usability of the sy
 - RDEBUG.COM - A program which depends on SCP/BIOS to launch the system debugger.
 - INTBASIC.COM - A buggy port of INTBASIC, the SCP/BIOS demonstration BASIC interpreter.
 
-Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user.
+Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user. 
+You can find each of these applications in the repository with the application name. The operating system itself can be found in the DOS repository.
 
 # So thats it! 
 
