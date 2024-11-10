@@ -62,6 +62,7 @@ SCP/DOS currently has a few applications which highlight the usability of the sy
 - FC.EXE - A demonstration file comparison program written in C.
 - RDEBUG.COM - A program which depends on SCP/BIOS to launch the system debugger.
 - INTBASIC.COM - A buggy port of INTBASIC, the SCP/BIOS demonstration BASIC interpreter.
+- SM.EXE - A Session Manager
 
 Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user. 
 
