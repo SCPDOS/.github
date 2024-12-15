@@ -63,6 +63,9 @@ SCP/DOS currently has a few applications which highlight the usability of the sy
 - RDEBUG.COM - A program which depends on SCP/BIOS to launch the system debugger.
 - INTBASIC.COM - A buggy port of INTBASIC, the SCP/BIOS demonstration BASIC interpreter.
 - SM.EXE - A Session Manager
+- SUBST.COM - A program for mounting directories on drive letters.
+- JOIN.COM - A program for mounting drive letters on subdirectories of the root directory.
+- TOUCH.COM - A UNIX-like utility for updating the access time of files.
 
 Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user. 
 
