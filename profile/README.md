@@ -40,7 +40,6 @@ If you have any questions or would like to get involved please get in contact wi
 Some projects for which I would be enternally grateful if one could contribute include:
 - A UEFI bootloader for SCP/DOS.
 - UEFI GPT support in the disk manipulation utilities.
-- Rewriting the default disk driver to be compatible with 2Fh/08xxh and hook into the disk io interrupts properly.
 - DLL manager (DLLMAN).
 - An installer for Windows/*nix based systems.
 - Porting compilers/assemblers.
