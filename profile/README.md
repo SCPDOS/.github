@@ -53,7 +53,7 @@ For all aforementioned tasks, I would be more than happy to liase and co-develop
 SCP/DOS currently has a few applications which highlight the usability of the system. These include:
 - COMMAND.COM - An amazing command interpreter.
 - EDLIN.COM - A text editing program (formally, a line editor).
-- FDISK.COM - A _proper_ disk formatting utility (MBR only for now).
+- FDISK.COM - A _proper_ disk formatting utility.
 - FORMAT.COM - A disk formatting utility.
 - SYS.COM - An operating system installation ultility.
 - MORE.COM - An IO filter for pagination.
