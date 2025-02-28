@@ -66,7 +66,7 @@ SCP/DOS currently has a few applications which highlight the usability of the sy
 - JOIN.COM - A program for mounting drive letters on subdirectories of the root directory.
 - TOUCH.COM - A UNIX-like utility for updating the access time of files.
 
-Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highly the functionality of the operating system to a user. 
+Whilst these don't exactly form an exciting set of programs, they demonstrate the ability of DOS to be a usable operating system as they highlight the functionality of the operating system to a user. 
 
 You can find each of these applications in the repository with the application name. The operating system itself can be found in the DOS repository.
 
