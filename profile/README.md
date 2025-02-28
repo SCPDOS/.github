@@ -1,7 +1,7 @@
 # SCP/DOS: A 64-bit operating system, for the personal computers of tomorrow!
 Welcome to the main SCP/DOS repository!
 
-The purpose of this operating system was simple: To provide users with a user experience and programming environment identical to that which MS-DOS 3.30 provided users back in the mid to late 1980s. 
+The design goals I had in mind when developing this operating system were simple: To provide users with a user experience and programming environment identical to that which MS-DOS 3.30 provided users back in the mid to late 1980s. 
 This operating system was developed completely in x86-64 assembly, with an API comparible to that which programmers would have had access to back in the wonderful days of DOS. Thats right, its Int 21h all the way down! 
 Furthermore, from a users perspective one would be hard pushed to believe that this is anything but an OS from the 1980's, right up to the messages COMMAND.COM will throw up at you. Oh yes, be prepared to say hello to your old friend "ABORT, RETRY, IGNORE, FAIL?"
 
